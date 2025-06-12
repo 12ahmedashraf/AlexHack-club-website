@@ -275,10 +275,11 @@ position: fixed;
 }
 .hacker h1{
     border-top: solid;
-    border-top-width: 1%;
+    border-top-width: 0.5%;
     border-top-color: #08283B;
     display: inline-block;
     text-align: center;
+    
 }
 .hacker p{
     text-align: center;
@@ -288,7 +289,6 @@ position: fixed;
     flex-direction: column;
 }
 .hacker img{
-    max-width: 35%;
     height: auto;
     flex-shrink: 1;
 }
@@ -503,7 +503,9 @@ footer{
     content: "|";
     animation: blink 1s step-start infinite;
 }
-
+.by-students{
+    text-align: left;
+}
 @keyframes blink {
     50% { opacity: 0; }
 }
@@ -519,33 +521,107 @@ footer{
     width: 5px;
     height: 5px;
  }
+ .AlexHack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .AlexHack .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  .AlexHack p{
+    text-align: center;
+ }
  .AlexHack img{
-    width: 20%;
-    height: 15%;
+    width: 70%;
+    height: 20%;
+    margin-top: 5%;
+ }
+ .hacker{
+      display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
  }
  .hacker img{
-    width: 20%;
-    height: 15%;
+    width: 70%;
+    height: 20%;
+        margin-top: 5%;
+
+ }
+ .hacker h1{
+    width: fit-content;
+ }
+ .hacker .text{
+    align-items: center;
+ }
+ .boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .box{
+    width: 70%;
+    margin-bottom: 4%;
+ }
+ .our-community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .our-community-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+  .text-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .text-left p{
+    text-align: center;
  }
  .our-community img{
-    width: 60%;
+    width: 100%;
     height: auto;
     border-radius: 10%;
  }
  .social img{
-    width: 20%;
+    width: 50%;
     height: auto;
  }
  .hackclub img{
-    width: 10%;
+    width: 30%;
     height: 15%;
  }
  .creativa img{
-    width: 60%;
+    width: 100%;
     height: auto;
  }
+ .cta-1{
+    width: fit-content;
+    height: fit-content;
+    padding: 3% 3%;
+ }
+ .cta-1 h1{
+    font-size: 20px;
+    text-align: center;
+
+ }
+  .cta-2{
+    width: fit-content;
+    height: fit-content;
+    padding: 3% 3%;
+ }
+ .cta-2 h1{
+    font-size: 20px;
+    text-align: center;
+
+ }
  .join-us-box{
-  width: 60%;
+  width: 94%;
     height: auto;
     margin: auto;
     border-radius: 30px;
@@ -553,23 +629,48 @@ footer{
  .image-upper img{
     width: 100%;
  }
+ .info{
+    display: flex;
+    flex-direction: column;
+ }
+ .about p{
+text-align: center;
+ }
+  .about h1{
+text-align: center;
+ }
  .contact-us a{
     width :20%;
 }
  .contact-us img{
     width :100%;
 }
+.social-media h1{
+    text-align: center;
+}
+.social-media{
+    align-items: center;
+}
+.social-footer a,.social-footer img{
+    width: 40%;
+    align-items: center;
+}
+.social-footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
  .font-26{
-    font-size: 6px;;
+    font-size: 20px;;
  }
   .font-30{
-    font-size: 7px;;
+    font-size: 25px;;
  }
  .font-40{
-    font-size: 8px;;
+    font-size: 23px;;
  }
  .font-60{
-    font-size: 12px;
+    font-size: 25px;
  }
   .font-70{
     font-size: 14px;
@@ -578,9 +679,9 @@ footer{
     font-size: 16px;
  }
  .font-100{
-    font-size: 20px;
+    font-size: 50px;
  }
  .font-120{
-    font-size: 27px;
+    font-size: 40px;
  }
 }
