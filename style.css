@@ -145,14 +145,19 @@ position: fixed;
   z-index: 1;
   margin-top: -20px;
   gap: 12%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
   }
   .links a h2{
     text-align: left;
-    font-size: 75%;
+    font-size: 80%;
   }
   .links.show {
     display: flex;
-   
+    transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
   }
 
   .hamburger {
@@ -194,7 +199,7 @@ position: fixed;
     width: 8%;
 }
 .hero-div{
-    background-image: url("/pics/bg3.png") ;
+    background-image: url("https://i.postimg.cc/yN0pBtzr/bg3.png") ;
     background-size: cover;
     height: 100vh;
       display: flex;
