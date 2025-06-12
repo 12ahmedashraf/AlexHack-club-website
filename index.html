@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlexHack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Rosario:ital,wght@0,300..700;1,300..700&family=Share+Tech&family=Single+Day&family=Srisakdi:wght@400;700&family=Viga&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav >            
+        <div class="navbar">
+        <img src="https://i.postimg.cc/L4cyQByn/Alex-Hack-text.png" alt="">   
+        <div class="links" id="#links">
+        <a href="" class="link"><h2 class="rosario-bold white ">Home</h2></a>
+        <a href="#about-us" class="link"><h2 class="rosario-bold white ">About us</h2></a>
+        <a href="#what-we-do" class="link"><h2 class="rosario-bold white ">What we do?</h2></a>
+        <a href="#our-community" class="link"><h2 class="rosario-bold white ">our community</h2></a>
+        <div class="cta1 up">
+            <a href="https://forms.gle/huTZAcuQejEueoaMA" target="_blank"><h2 class="rosario-bold white ">Join us!</h2></a>
+        </div>
+        </div> 
+        <div class="hamburger" onclick="toggleMenu()">
+      ☰
+    </div>
+        </div>
+         
+    </nav>
+    <section class="hero-section" >
+        <div class="hero-div">
+            <div class="up"></div>
+            <div class="hero-middle">
+                <div class="arrow " id="prev_slide" onclick="change_back(-1)">
+                  <img src="pics/arrow-left.png" class="up" alt="">
+                </div>
+                <div class="logo up">
+                    <img src="pics/logo.png" alt="">
+                </div>
+                <div class="arrow" id="next_slide" onclick="change_back(1)">
+                   <img src="pics/arrow-right.png" class="up">
+                </div>
+            </div>
+            <div class="circles-hero">
+                <div class="circle" id="circle1"></div>
+                <div class="circle" id="circle2"></div>
+                <div class="circle" id="circle3"></div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutus" id="about-us">
+        <div class="AlexHack">
+            <div class="text">
+                <h1 class="zain-bold cyan font-60">What is AlexHack club?</h1>
+                <p class="zain-bold dark-blue font-40 text-with-cursor">AlexHack is Alexandria’s computer science club for high<br>
+                    schoolers powered by hack club , We are passionate about<br>
+                    enhancing the computer science community for teenagers in<br>
+                    Alexandria by supporting each other and creating projects<br>
+                    that help us and all teenagers.</p>
+            </div>
+            <img src="pics/image1.png" class="up" alt="">
+        </div>
+        <div class="hacker">
+            <img src="pics/image2.png" class="up" alt="">
+            <div class="text">
+                <h1 class="zain-bold cyan font-60"> What is A Hacker?</h1>
+                <p class="zain-bold dark-blue font-40 text-with-cursor"> A hacker is not always someone who trespasses on banks or <br>
+                    plunders a friend's V-Bucks. Hackers are individuals who identify <br>
+                    problems that need to be solved and devise the most practical <br>
+                    efficient solutions. These issues frequently call for an inventive <br>
+                    mentality, technological know-how, and exposure to new ideas. <br>
+                    Many can be solved with computers or clever engineering. </p>
+            </div>
+        </div>
+    </section>
+    <section class="what-we-do" id="what-we-do">
+        <div class="what-we-do-title">
+                    <h1 class="font-100 zain-bold cyan">What we do?</h1>
+        </div>
+        <div class="boxes">
+            <div class="box up">
+                <img src="pics/laptop_icon.png" alt="">
+                <p class="viga font-40 white"> Learn with each other <br>
+through creating projects <br>
+and getting prizes too!</p>
+            </div>
+            <div class="box up">
+                <img src="pics/AMA.png" alt="">
+                <p class="viga font-40 white"> Host monthly AMAs with  <br>experts  in computer <br> science that you always <br> wanted to ask </p>
+            </div>
+            <div class="box up">
+                 <img src="pics/hackathons.png" alt="">
+                <p class="viga font-40 white"> Organize & participate  in <br> hackathons, events and <br>competitions.</p>
+            </div>
+        </div>
+    </section>
+    <section class="our-community" id="our-community">
+        <div class="our-community-left">    
+                <div class="text-left">
+            <h1 class="cyan font-100 zain-bold">Our community</h1>
+            <p class="viga white font-40 "> 
+                Our community is full of creativity and mutual support. We’re 
+                always there for each other, sharing knowledge and 
+                <br>experiences, and everyone adds great value to one another.
+            </p>    
+                </div>
+            <div class="social">
+                <a href="https://www.instagram.com/alexhack_club/" target="_blank" class="up"><img src="pics/instagram.png"  ></a>
+                <a href="https://www.linkedin.com/company/alexhackclub" target="_blank" class="up"><img src="pics/linkedin.png" ></a>
+                <a href="https://www.facebook.com/profile.php?id=61570399486962" target="_blank" class="up"><img src="pics/facebook.png" ></a>
+            </div>
+        </div>
+        <div class="our-community-right">
+            <img src="pics/gallery2.png" class="up" id="gallery">
+            </div>
+    </section>
+    <section class="partners">
+        <div class="title-partners">
+            <h1 class="cyan font-100 zain-bold">Our partners</h1>
+        </div>
+        <div class="hackclub">
+            <img src="pics/hackclub.png" class="up">
+            <img src="pics/hcb.png" class="up">
+        </div>
+        <div class="creativa">
+            <img src="pics/creativa.png" class="up">
+        </div>
+        <div class="cta">
+            <div class="cta-1 "><a href="https://forms.gle/u3QAQUDPo4TjtQdg9" target="_blank"><h1 class="white anek-devanagari-bold font-40">Become a partner!</h1></a></div>
+            <div class="cta-2"><a href="https://hcb.hackclub.com/donations/start/alexhack" target="_blank"><h1 class="white anek-devanagari-bold font-40">Support us!</h1></a></div>
+        </div>
+    </section>
+    <section class="join-us">
+        <div class="join-us-box up">
+            <div class="upper">
+                <h1 class="white share-tech-regular font-120">Alexandrian teen? <br>Join us now!</h1>
+                <div class="image-upper">
+                <img src="pics/emoji.png" alt="">
+                </div>
+            </div>
+            <div class="lower">
+                <div class="apply up">
+                    <a href="https://forms.gle/huTZAcuQejEueoaMA" target="_blank"><h1 class="white share-tech-regular font-60">App;y here</h1></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="info">
+        <div class="about">
+            <h1 class="cyan font-30 rosario-bold">About</h1>
+            <p class="white font-26 rosario-bold hh">AlexHack is Alexandria’s computer <br>science club for high schoolers <br>powered by hack club. </p>
+            <p class="single-day-regular white font-26" >By students for students....</p>
+        </div>
+        <div class="contact-us">
+            <h1 class="cyan font-30 rosario-bold">Contact us</h1>
+            <a href="mailto:alexhackclub@gmail.com" target="_blank" class="up"><img src="pics/email.png" ></a>
+        </div>
+          <div class="social-media">
+                        <h1 class="cyan font-30 rosario-bold">Social media</h1>
+           <div class="social-footer">
+            <a href="https://www.instagram.com/alexhack_club/" target="_blank" class="up"><img src="pics/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/alexhackclub" target="_blank" class="up"><img src="pics/linkedin.png" alt=""></a>
+            <a href="https://www.facebook.com/profile.php?id=61570399486962" target="_blank" class="up"><img src="pics/facebook.png" alt=""></a>
+           </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <h1 class="zain-bold white font-30">@2025 AlexHack</h1>
+    </div>
+</footer>
+<script src="script.js"></script>
+</html>
