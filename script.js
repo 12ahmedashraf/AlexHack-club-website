@@ -1,9 +1,8 @@
 let x=document.getElementsByClassName("hero-div")[0];
 const bgs=[
-    'url("/pics/bg3.png")', 
-    'url("/pics/bg1.png")',
-    'url("/pics/bg2.png")',
-    'url("/pics/bg4.png")'
+    'url("https://i.postimg.cc/yN0pBtzr/bg3.png")', 
+    'url("https://i.postimg.cc/BQ16qBX1/bg1.png")',
+    'url("https://i.postimg.cc/nrFP3kgS/bg4.png")'
 ];
 let y=0;
         document.getElementsByClassName("circle")[0].style.backgroundColor="white";
@@ -51,3 +50,10 @@ function toggleMenu() {
         nav.classList.toggle("show");
 
   }
+    const menu = document.getElementById("links");
+
+   document.querySelectorAll("#links a").forEach(link => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("show");
+    });
+  });
