@@ -6,7 +6,7 @@ const bgs=[
 ];
 let y=0;
         document.getElementsByClassName("circle")[0].style.backgroundColor="white";
-
+   x.style.backgroundImage = bgs[0];
 function change_back(z)
 {
     y=y+z;
